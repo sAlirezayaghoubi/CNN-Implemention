@@ -89,4 +89,4 @@ matplotlib
 ```
 
 ## Author
-This project was created by Seyedalireza Yaghoubi |  David Carranza Navarrete. For any inquiries, please contact Syaghoubi@uni-osnabrueck.de | dcarranzanav@uni-osnabrueck.de .
+This project was created by Seyedalireza Yaghoubi |  David Carranza Navarrete. For any inquiries, please contact syaghoubi@uni-osnabrueck.de | dcarranzanav@uni-osnabrueck.de .
