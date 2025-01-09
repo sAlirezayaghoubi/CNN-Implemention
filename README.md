@@ -38,9 +38,10 @@ Ensure you have the required libraries installed to run the project. See `requir
    ```bash
    pip install -r requirements.txt
    ```
-3. Run the experiments:
+3. Run the experiments manaually in .ipynb file oo convert it to python script and run it: 
    ```bash
-   python <script_name>.py
+   jupyter nbconvert --to script CNN.ipynb
+   python CNN.py
    ```
 
 ## Experiment Settings
