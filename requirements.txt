@@ -1,4 +1,4 @@
-python==3.0
+python==3.12
 torch==1.13.0
 torchvision==0.14.0
 matplotlib==3.6.0
