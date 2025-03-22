@@ -1,8 +1,5 @@
 import os 
 import sys 
-print(sys.version)
-print(sys.executable)
-sys.path.append(os.path.join(os.getcwd(), 'src'))
 from features.params_flops import calculate_params_and_flops
 import torch.optim as optim
 import torch 
@@ -10,7 +7,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 from cnn.cnn import CustomCNN
 
-
+sys.path.append(os.path.join(os.getcwd(), 'src'))
 # Training and Evaluation Function
 def train_and_evaluate(conv_config, pool_type, dropout_rate, flip_kernel, sparsity, 
                         use_tiled, use_unshared, use_locally_connected, padding_style,
